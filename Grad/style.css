@@ -1,0 +1,33 @@
+body{
+    background-image: url(back.jpg) ;
+    margin: 0 0 0 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(112, 170, 187, 0.922);
+    overflow: hidden;
+}
+
+img{
+    border-radius: 40px;
+    position: absolute;
+    top: 250px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    height: 350px; 
+    width: 350px;
+}
+
+/* .hehe{
+    position: relative;
+} */
+
+.cat:hover{
+    opacity: 0;
+}
+
+.cat{
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
